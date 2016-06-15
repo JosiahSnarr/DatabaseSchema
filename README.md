@@ -10,7 +10,7 @@ sudo apt-get install mysql-server
 Usage
 -----
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~{.sh}
-mysql -u <use> -p < elevator_data_repository.sql
+mysql -u <user> -p < elevator_data_repository.sql
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Tables
