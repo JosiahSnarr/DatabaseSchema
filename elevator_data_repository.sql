@@ -185,9 +185,9 @@ DROP TABLE IF EXISTS `user_info`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `user_info` (
-  `id` int(10) unsigned NOT NULL,
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `username` varchar(16) NOT NULL,
-  `password` varchar(16) NOT NULL,
+  `password` varchar(64) NOT NULL,
   `permission` int(11) unsigned NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
